@@ -5,8 +5,15 @@
     background-color: rgba(236, 242, 247, 0.76);
 }
 
-.fundo_esquerdo{
+.titulo{
+    position: fixed;
+    top: 50%;
+    background-color: none;
     
+}
+
+.background{
+    position: fixed;
     background-image: url("../img/cachoeira.jpg");
     background-position: center;
     background-size: cover;
