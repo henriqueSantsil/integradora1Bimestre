@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(236, 242, 247, 0.76);
+}
+
+.fundo_esquerdo{
+    
+    background-image: url("../img/cachoeira.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
