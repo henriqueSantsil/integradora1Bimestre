@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trabalho integradora</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   </head>
 
   <body>
@@ -16,7 +18,7 @@
     </header>
 
     <main class="container">
-
+      
         <div class="row mt-5 pre-conteudo-caixa rounded">
 
             <div class="col-md-6">
@@ -28,13 +30,94 @@
             </div>
 
             <div class="col-md-6">
-                <img class="m-5" src="../img/desenhoPeixe.png">
+                <img class="m-5 img-fluid" src="../img/desenhoPeixe.png">
             </div>
             
         </div>
 
+        <!-- COMEÇO DO CONTEUDO -->
+        <div class="conteudo container mt-5">
+          
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="bi bi-droplet"></i></button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="bi bi-droplet-half"></i></button>
+              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="bi bi-droplet-fill"></i></button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+              
+              <div class="row">
+                <p class="col-md-7 conteudo-texto mt-5">
+                  <span><i class="bi bi-forward-fill"></i></span>Décimo quarto objetivo de desenvolvimento sustentável é "vida na água",
+                  que visa proteger e usar de forma sustentável os recursos marinhos e costeiros,
+                  promover a proteção da biodiversidade marinha e o uso sustentável dos recursos
+                  marinhos em benefício das gerações presentes e futuras.
+                </p>
+
+                <figure class="col-md-5 mb-5">
+                  <img src="../img/PaginaEspecifica/imagem-homem-mulher-segurando-tartaruga.jpg"
+                  class="img-fluid" alt="foto de um homem e uma mulher segurando uma tartaruga na praia">
+
+                  <figcaption class="captions">Imagem de um homem e uma mulher segurando uma tartaruga em uma praia - Projeto Tamar https://www.tamar.org.br/interna.php?cod=201</figcaption>
+                </figure>
+                
+
+              </div>
+              
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+              
+              <div class="row">
+                <p class="col-md-7 conteudo-texto mt-3">
+                  <span><i class="bi bi-forward-fill"></i></span>As atividades humanas, como a sobrepesca, a poluição, as mudanças climáticas
+                  e a degradação dos ecossistemas costeiros, impactam negativamente a biodiversidade
+                  marinha e o bem-estar das comunidades que dependem desses recursos. Portanto, o décimo
+                  quarto Objetivo de Desenvolvimento Sustentável busca promover ações para proteger e restaurar
+                  a vida marinha e os ecossistemas associados, além de promover o uso sustentável dos recursos naturais.<br><br>
+
+                  <span><i class="bi bi-forward-fill"></i></span>Algumas das metas do ODS 14 incluem reduzir a poluição marinha, proteger habitats marinhos críticos,
+                  combater a sobrepesca e a pesca ilegal, não declarada e não regulamentada, melhorar a gestão sustentável
+                  dos recursos marinhos e aumentar a participação da comunidade local nos oceanos e mares. gestão e conservação.
+                </p>
+
+                <figure class="col-md-5 mb-5">
+                  <img src="../img/PaginaEspecifica/imagem-poluicao-marinha.jpg"
+                  class="img-fluid" alt="foto de um homem e uma mulher segurando uma tartaruga na praia">
+
+                  <figcaption class="captions">Imagem de uma praia poluida - InfoEscola https://www.infoescola.com/ecologia/poluicao-marinha/</figcaption>
+                </figure>
+                
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+              
+              <div class="row">
+                <p class="col-md-7 conteudo-texto mt-3">
+                  <span><i class="bi bi-forward-fill"></i></span>O ODS 14 é importante não apenas para a proteção dos ecossistemas marinhos e da biodiversidade,
+                  mas também para a segurança alimentar e o bem-estar das comunidades costeiras que dependem dos
+                  recursos marinhos para sua subsistência e economias locais. Além disso, o ODS 14 está vinculado
+                  a outros ODS, como ODS 1 (Erradicar a Pobreza), ODS 2 (Fome Zero e Agricultura Sustentável) e ODS
+                  13 (Combater as Mudanças Climáticas Globais), destacando a interdependência de diferentes dimensões do desenvolvimento sustentável.
+                </p>
+
+                <figure class="col-md-5 mb-5">
+                  <img src="../img/PaginaEspecifica/imagem-grupo-pessoas-recolhendo-lixo-na-praia.jpeg"
+                  class="img-fluid" alt="foto de um homem e uma mulher segurando uma tartaruga na praia">
+
+                  <figcaption class="captions">Imagem de um grupo de pessoas separando restos de lixo na praia - ABEMA https://www.abema.org.br/noticias/261-governo-institui-o-dia-estadual-de-combate-a-poluicao-nos-oceanos-e-limpeza-das-praias</figcaption>
+                </figure>
+
+            </div>
+          </div>
+        </div>
+        <!-- FIM DO CONTEUDO -->
+
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   </body>
 </html>

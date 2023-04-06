@@ -1,0 +1,17 @@
+.pre-conteudo-caixa{
+    background-color: #009edb;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.212);
+}
+
+.pre-conteudo-titulo{
+    color: white;
+    font-size: 60px;
+    margin-top: 5rem;
+    font-weight: 800;
+}
+
+.pre-conteudo-texto{
+    color: white;
+    font-size: 30px;
+
+}
