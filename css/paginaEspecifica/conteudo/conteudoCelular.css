@@ -1,0 +1,13 @@
+@media (max-width: 991px){
+    .imagem-peixe{
+        display: none;
+    }
+}
+
+@media (max-width: 1397px) {
+    .conteudo-texto{
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+    
