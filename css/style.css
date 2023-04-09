@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-@import url(paginaPrincipal.css);
+/*pagina do index*/
+@import url(index/paginaIndex.css);
 
 /* aqui em baixo eu irei ligar todos os css da pagina especifica no arquivo ODS.css, para não ter que ficar preenchendo aqui com código atoa
     assim caso eu precise criar outros muitos arquivos .css eu só ligo todos eles a um em alguma pasta e ligar esse arquivo "biblioteca" aqui */

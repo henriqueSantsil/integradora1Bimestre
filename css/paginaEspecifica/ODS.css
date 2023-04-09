@@ -1,4 +1,5 @@
-@import url(header.css);
-@import url(pre-conteudo.css);
+@import url(header/header.css);
+@import url(pre-conteudo/pre-conteudo.css);
+@import url(pre-conteudo/pre-conteudoCelular.css);
 @import url(conteudo/conteudo.css);
 @import url(conteudo/conteudoCelular.css);

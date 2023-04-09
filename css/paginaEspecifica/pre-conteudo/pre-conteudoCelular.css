@@ -1,0 +1,20 @@
+@media (max-width: 991px){
+    .imagem-peixe{
+        display: none;
+    }
+
+}
+
+@media (max-width: 473px){
+    .pre-conteudo-titulo{
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+
+    .pre-conteudo-texto{
+        font-size: 20px;
+    }
+}
+
+
